@@ -28,6 +28,6 @@ y_axis_config = {'title': '结果的频率'}
 my_layout = Layout(title='同时投掷两个骰子的结果频率',
                    xaxis=x_axis_config,
                    yaxis=y_axis_config)
-offline.plot({'data': data, 'layout': my_layout}, filename='d6_d6.html')
+offline.plot({'data': data, 'layout': my_layout}, filename='d62.html')
 
 
