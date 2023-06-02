@@ -7,6 +7,7 @@ from die import Die
 die_1 = Die()
 die_2 = Die()
 die_3 = Die()
+
 # 掷骰子多次，并将结果存储在一个列表中
 results = []
 for roll_num in range(100000):
