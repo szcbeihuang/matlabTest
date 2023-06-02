@@ -4,7 +4,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 
 filename = 'death_valley_2018_simple.csv'
-with open(filename) as f:
+with open(filename,) as f:
     reader = csv.reader(f)
     header_row = next(reader)
 
